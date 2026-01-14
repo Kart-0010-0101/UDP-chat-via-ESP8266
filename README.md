@@ -119,10 +119,10 @@ Receiver:
 
 ## Limitations
 
-No retries on packet loss
-No encryption
-No automatic peer discovery
-Hardcoded peer IPs
+- No retries on packet loss
+- No encryption
+- No automatic peer discovery
+- Hardcoded peer IPs
 
 These were intentionally omitted to keep the code minimal and educational.
 
@@ -130,15 +130,15 @@ These were intentionally omitted to keep the code minimal and educational.
 
 This project is meant to:
 
-teach basic networking concepts
-demonstrate UDP communication
-show how acknowledgments work
-provide a clean foundation for further extensions
+- teach basic networking concepts
+- demonstrate UDP communication
+- show how acknowledgments work
+- provide a clean foundation for further extensions
 
 ## Possible Extensions
 
-Message retry on missing ACK
-Duplicate message filtering
-Peer discovery
-Encryption
-Multi-node support
+- Message retry on missing ACK
+- Duplicate message filtering
+- Peer discovery
+- Encryption
+- Multi-node support
