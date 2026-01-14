@@ -28,7 +28,7 @@ void setup() {
 }
 
 void loop() {
-  // ---------- RECEIVE ----------
+  //RECEIVE
   int size = udp.parsePacket();
   if (size) {
     int len = udp.read(rxBuf, 255);
@@ -56,7 +56,7 @@ void loop() {
     }
   }
 
-  // ---------- SEND ----------
+  //SEND
   while (Serial.available()) {
     char c = Serial.read();
     if (c == '\n' || c == '\r') {
