@@ -49,20 +49,21 @@ Each ESP:
 
 ### Message Format
 
+```c
 <ID>|MSG|<NODE>:<TEXT>
-
-makefile
-Copy code
+```
 
 Example:
-3|MSG|A:Hello
 
-shell
-Copy code
+```c
+3|MSG|A:Hello
+```
 
 ### Acknowledgment Format
 
+```c
 <ID>|ACK|OK
+```
 
 ---
 
